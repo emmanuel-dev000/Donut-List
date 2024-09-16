@@ -1,0 +1,11 @@
+<div class="donut-popup-bg" (click)="closeDonutPopup()"></div>
+<dialog open class="donut-popup">
+    <button (click)="closeDonutPopup()" class="close-button" type="button">X</button>
+    <form (ngSubmit)="onSubmit()" class="donut-form">
+        <p>Name</p>
+        <input [(ngModel)]="name" type="text" name="name">
+        <p>Image Url</p>
+        <input [(ngModel)]="imageUrl" type="text" name="imgUrl">
+        <input type="submit" value="Add Donut">
+    </form>
+</dialog>
