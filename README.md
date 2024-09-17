@@ -1,5 +1,7 @@
 # DonutList
 
+To delete your donuts, clear your [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) on your browser.
+
 [Donut Images](https://github.com/aaronfrost/DonutsApi/tree/main/static/images)
 
 _________
